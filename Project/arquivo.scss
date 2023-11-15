@@ -1,5 +1,10 @@
+$cor : black;
 h1 {
-  color: black;
+  color: $cor;
 }
 
+h2{
+  color: $cor;
+  font-size: 14px;
+}
 /*# sourceMappingURL=arquivo.scss.map */
