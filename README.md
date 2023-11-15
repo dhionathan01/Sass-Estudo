@@ -4,3 +4,6 @@ Estudo do Sass - Curso desenvolvimento web completo
 ```npm install -g sass```
 #### Comando para converter arquivo sass para scss:
 ```sass arquivo.sass arquivo.scss ```
+
+#### Convertendo arquivo scss para css
+```sass arquivo.scss arquivo.css ```
