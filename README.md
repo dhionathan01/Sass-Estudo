@@ -15,3 +15,8 @@ Estudo do Sass - Curso desenvolvimento web completo
 #### Ativando a compilação automática de pastas:
 ```sass --watch sass:css```
 ![Imagem de ativação da compilação](image-1.png)
+
+### Essa Aula foi feita pelo site:
+- www.sassmeister.com/
+- LINK: https://www.sassmeister.com/gist/e0ca20e2d9ab99a10e8a5d385ceec0b9?token=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&scope=gist,read:user
+- GIT: https://gist.github.com/dhionathan01/e0ca20e2d9ab99a10e8a5d385ceec0b9

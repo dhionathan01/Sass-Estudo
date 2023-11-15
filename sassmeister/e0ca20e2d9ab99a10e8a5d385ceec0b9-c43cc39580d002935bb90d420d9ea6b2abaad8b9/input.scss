@@ -1,0 +1,47 @@
+/*Aninhamento*/
+/*Referencia seletor pai*/
+#conteudo{
+    background:gray;
+    padding: 15px;
+    
+    h1, h2{
+        color:white;
+    }
+    
+    a{
+        color: cyan;
+        &:hover{
+            color:blue;
+        }
+     }
+}
+/*Variáveis */
+$cor-primaria: gray;
+$tamanho-titulo : 20px;
+$bg-primary: LightSteelBlue;
+
+h2{
+    color: $cor-primaria;
+    font-size: $tamanho-titulo;
+}
+#conteudo2{
+    background: $bg-primary;
+}
+
+/*Escopo Variáveis(Onde ela é reconhecida)*/
+$cor-padrao: CadetBlue;
+#rodape{
+    $cor-padrao: LightSeaGreen !global; 
+    background-color: $cor-padrao;
+}
+h2{
+    color: $cor-padrao;
+}
+
+/*Interpolacao*/
+
+$classe: MediumSlateBlue;
+$color: color;
+.#{$classe}{
+    #{color}: $classe;
+}

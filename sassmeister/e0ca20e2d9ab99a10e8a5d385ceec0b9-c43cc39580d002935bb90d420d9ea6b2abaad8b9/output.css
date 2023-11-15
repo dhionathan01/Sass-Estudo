@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*Aninhamento*/
+/*Referencia seletor pai*/
+#conteudo {
+  background: gray;
+  padding: 15px;
+}
+#conteudo h1, #conteudo h2 {
+  color: white;
+}
+#conteudo a {
+  color: cyan;
+}
+#conteudo a:hover {
+  color: blue;
+}
+
+/*Variáveis */
+h2 {
+  color: gray;
+  font-size: 20px;
+}
+
+#conteudo2 {
+  background: LightSteelBlue;
+}
+
+/*Escopo Variáveis(Onde ela é reconhecida)*/
+#rodape {
+  background-color: LightSeaGreen;
+}
+
+h2 {
+  color: LightSeaGreen;
+}
+
+/*Interpolacao*/
+.MediumSlateBlue {
+  color: MediumSlateBlue;
+}
