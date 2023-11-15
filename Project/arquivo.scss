@@ -1,4 +1,5 @@
 $cor : black;
+$bg: red;
 h1 {
   color: $cor;
 }
@@ -6,5 +7,6 @@ h1 {
 h2{
   color: $cor;
   font-size: 14px;
+  background: $bg;
 }
 /*# sourceMappingURL=arquivo.scss.map */
