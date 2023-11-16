@@ -1,0 +1,47 @@
+/*for*/
+/*
+trough e to
+trough ele vai do intervalo do from
+até o to valor indicado incluindo o valor.
+to ele vai do intervalo indicado exceto o último
+*/
+@for $i from 1 to 3{
+    .item-#{$i}{
+        background: green;
+        margin-bottom: 2px;
+    }
+}
+
+/*while*/
+$contador: 1;
+@while($contador <= 5){
+     .item-#{$contador}{
+        background: orange;
+        margin-bottom: 2px;
+    }
+    
+    $contador: $contador + 1;
+}
+
+/*each*/
+/*O each não precisa de um contador para
+funcionar*/
+$contador: 1;
+$lista: green, yellow, red;
+@each $cor in $lista {
+    .item-#{$contador}{
+        background: $cor;
+        margin-bottom: 2px;
+    }
+    $contador : $contador + 1;
+}
+
+/* Funções */
+$total: 12;
+@function largura-coluna($coluna){
+    @return percentage($coluna/$total);
+}
+$resultado: largura-coluna(12);
+/*
+#{$resultado}
+*/
